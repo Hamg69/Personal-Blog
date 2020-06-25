@@ -1,0 +1,48 @@
+.header {
+    margin: 0px;
+    padding:0px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+	width: 100%;	 
+    background: darkcyan; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+	display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 4em;
+    justify-content: space-between;
+    align-items: center;
+}
+ .homepage {
+	font-size: 2.6em;
+	font-weight: bolder;
+	font-style: italic;
+
+}
+.homepage:hover {
+	background-color: unset !important;
+	color: limegreen;
+}
+
+.list {
+	display: flex;
+	font-size: 1.5em;
+	flex-direction: row;
+	list-style-type: none;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a {
+	padding: 0.6em;
+}
+
+a:hover {
+	background-color: limegreen;
+	color: darkgreen;
+}

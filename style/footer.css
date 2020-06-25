@@ -1,0 +1,31 @@
+
+footer {
+	background-color: darkolivegreen;
+	display: flex;
+    justify-content: space-between;
+    flex-flow: row-reverse;
+}
+
+.form{
+	display: flex;
+    justify-content: center;
+    flex-flow: column;
+    background-color: limegreen;
+}
+
+.end-links{
+	display: flex;
+    justify-content: center;
+}
+
+.subscribe{
+	display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+.end:hover{
+	color: blue;
+	text-decoration: underline;
+	font-weight: bolder;
+	background-color: rgba(0, 0, 0, 0) !important;
+}

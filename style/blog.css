@@ -1,0 +1,266 @@
+body {
+    background-color: lawngreen;    
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../image/grass.jpg");
+    margin: 0;
+}
+
+.header {
+    margin: 0px;
+    padding:0px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+	width: 100%;	 
+    background: darkcyan; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+	display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 4em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .homepage {
+	font-size: 2.6em;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.homepage:hover {
+    background-color: unset !important;
+    font-weight: bolder;
+    color: limegreen;
+}
+
+.list {
+	display: flex;
+	font-size: 1.5em;
+	flex-direction: row;
+	list-style-type: none;
+    margin: 1.6em;
+}
+.links:hover {
+    background-color: unset;
+    font-weight: bolder;
+    color: orangered;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    padding: 0.6em;
+}
+
+a:hover {
+    background-color: limegreen;
+    color: darkgreen;
+}
+
+@media only screen and (min-width: 200px){
+    .end{
+        font-size: 0.8em;
+    }
+    .homepage{
+        font-size: 0.8em;
+    }
+    .list{
+        font-size: 0.6em;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(0);
+        grid-template-areas: 
+        "title"
+        "content"
+        "side";
+    }    
+    .list-two {
+    display: flex;
+    font-size: 1.6em;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: center;
+    }
+    .image{
+    width: 100%;
+    height: 25.8em;
+    }
+}
+@media only screen and (min-width: 500px){
+    .homepage{
+        font-size: 1.6em;
+    }
+    .list{
+        font-size: 0.8em;
+    }
+    .end{
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .homepage{
+        font-size: 1.8em;
+    }
+    .list{
+        font-size: 1.2em;
+    }
+}
+
+
+@media only screen and (min-width: 720px) {
+    .homepage{
+        font-size: 2.3em;
+    }
+    .list{
+        font-size: 1.3em;
+    }
+    .image{
+    width: 100%;
+    height: 25.8em;
+    }
+    .end{
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 970px) {
+    .grid-container {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-areas:
+    "title title title side" 
+    "content content content side";
+    }
+    .list-two {
+    display: flex;
+    font-size: 1.2em;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: center;
+    }
+}
+
+.topic {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder !important;
+}
+
+.title { 
+    font-weight: bolder !important;
+    color: maroon;
+    grid-area: title;
+    padding: 0.5em;
+    margin: 0.5em;
+    display: flex;
+    flex-direction: column;
+ }
+.island{
+    display: flex;
+    justify-content: center;
+}
+.date { 
+    font-weight: bolder !important;
+    color: red;
+}
+.godafos{
+    width: 100%;
+    height: 42em;
+    }
+
+.social{
+    color: darkslateblue;
+    padding: 0.2em;
+    margin: 0.2em; 
+    font-size: 1.7em;
+    cursor: pointer;
+}
+
+.social:hover{
+    color: mediumblue;
+}
+.content { 
+    grid-area: content;
+    padding: 0.2em;
+    margin: 0.2em; 
+}
+.name { 
+    padding: 0em;
+    margin: 0em; 
+}
+.side { 
+    grid-area: side;
+    padding: 0.2em;
+    margin: 0.2em; 
+    text-align: justify;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../image/ground.jpg");
+}
+
+.other {
+    color: darkviolet;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8em;
+}
+.subtopic {
+    color: crimson;
+}
+
+footer {
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row-reverse;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    background-color: limegreen;
+}
+
+.links{
+    display: flex;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+.end:hover{
+    color: blue;
+    text-decoration: underline;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.check{
+    color: maroon;
+    display: flex;
+    flex-direction: column;
+}
+.check:hover{
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.picture {
+    width: 100%;
+    height: 17em;
+}
+.author {
+    width: 12em;
+    height: 9em;
+    padding: auto;
+    margin: auto; 
+}
+.word{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
